@@ -7,3 +7,7 @@ body {
 body, h1 {
     text-align: center;
 }
+
+.nav-wrapper {
+    background-color: #2596be;
+}
