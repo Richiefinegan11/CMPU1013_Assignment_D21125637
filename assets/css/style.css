@@ -5,7 +5,8 @@ body {
 }
 
 body,
-h1 {
+h1,
+h5 {
     text-align: center;
 }
 
@@ -13,12 +14,42 @@ h1 {
     background-color: #2596be;
 }
 
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+.hr-heading {
+    margin-bottom: 5em;
+    border-top: 2px solid #2596be;
 }
 
-main {
-    flex: 1 0 auto;
+.section-break {
+    margin: 3em 0 3em 0;
+    border-top: 3px solid #2596be;
+}
+
+@media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+
+@media (min-width:1025px) {
+
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+
+    /* hi-res laptops and desktops */
+
 }
