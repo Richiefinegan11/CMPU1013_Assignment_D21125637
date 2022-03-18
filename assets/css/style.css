@@ -4,10 +4,21 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-body, h1 {
+body,
+h1 {
     text-align: center;
 }
 
 .nav-wrapper {
     background-color: #2596be;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
