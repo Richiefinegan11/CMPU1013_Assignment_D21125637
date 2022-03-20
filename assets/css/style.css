@@ -49,6 +49,23 @@ i {
     border: 3px solid #2596be;
 }
 
+button {
+    width: 100px;
+    background-color: #2596be;
+    border: 1px solidw white;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    width: 100px;
+    background-color: white;
+    border: 1px solidw #2596be;
+    border-radius: 10px;
+    color: #2596be;
+    cursor: pointer;
+}
+
 @media (min-width:320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
 }
