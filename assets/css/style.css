@@ -10,6 +10,10 @@ h5 {
     text-align: center;
 }
 
+h5 {
+    padding-bottom: 2rem;
+}
+
 .nav-wrapper {
     background-color: #2596be;
 }
@@ -32,6 +36,10 @@ h5 {
 
 .page-footer {
     background-color: #2596be !important;
+}
+
+i {
+    margin: 0 3rem;
 }
 
 @media (min-width:320px) {
