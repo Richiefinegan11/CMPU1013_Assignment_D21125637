@@ -24,6 +24,16 @@ h5 {
     border-top: 3px solid #2596be;
 }
 
+.table-main,
+.table-main th,
+.table-main td {
+    border: 2px solid #2596be;
+}
+
+.page-footer {
+    background-color: #2596be !important;
+}
+
 @media (min-width:320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
 }
