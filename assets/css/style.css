@@ -15,6 +15,11 @@ h4 {
     padding-bottom: 2rem;
 }
 
+.main-image {
+    border: 2px solid #2596be;
+    margin-top: 3em;
+}
+
 .nav-wrapper {
     background-color: #2596be;
 }
@@ -56,6 +61,7 @@ i {
     border: 1px solidw white;
     border-radius: 5px;
     color: white;
+    margin-top: 2rem;
 }
 
 .thumbs {
@@ -72,6 +78,10 @@ i {
 
 .padding-message {
     margin: 10em 0;
+}
+
+.contact-text {
+    margin-top: 2rem;
 }
 
 @media (min-width:320px) {
