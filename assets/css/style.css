@@ -49,8 +49,8 @@ i {
     border: 3px solid #2596be;
 }
 
-button {
-    width: 100px;
+.button {
+    width: fit-content;
     height: 50px;
     background-color: #2596be;
     border: 1px solidw white;
@@ -58,13 +58,20 @@ button {
     color: white;
 }
 
-button:hover {
-    width: 100px;
+.thumbs {
+    margin-top: 5em;
+}
+
+.button:hover {
     background-color: white;
     border: 1px solid #2596be;
     border-radius: 10px;
     color: #2596be;
     cursor: pointer;
+}
+
+.padding-message {
+    margin: 10em 0;
 }
 
 @media (min-width:320px) {
