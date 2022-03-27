@@ -88,6 +88,8 @@ i {
     border: 1px solid #2596be;
 }
 
+
+
 @media (min-width:320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
 }
@@ -104,16 +106,24 @@ i {
 @media (min-width:961px) {
 
     /* tablet, landscape iPad, lo-res laptops ands desktops */
-
+    .margin {
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width:1025px) {
 
     /* big landscape tablets, laptops, and desktops */
+    .margin {
+        margin-top: 4.5rem;
+    }
 }
 
 @media (min-width:1281px) {
 
     /* hi-res laptops and desktops */
+    .margin {
+        margin-top: 4.5rem;
+    }
 
 }
