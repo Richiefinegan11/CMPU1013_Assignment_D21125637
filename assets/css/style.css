@@ -88,7 +88,9 @@ i {
     border: 1px solid #2596be;
 }
 
-
+.about-me {
+    margin-bottom: 3rem;
+}
 
 @media (min-width:320px) {
     /* smartphones, iPhone, portrait 480x320 phones */
