@@ -86,6 +86,7 @@ i {
 
 .thumbnail {
     border: 1px solid #2596be;
+
 }
 
 .about-me {
@@ -111,6 +112,10 @@ i {
     .margin {
         margin-top: 4rem;
     }
+
+    .thumbnail {
+        margin-top: 5rem;
+    }
 }
 
 @media (min-width:1025px) {
@@ -118,6 +123,10 @@ i {
     /* big landscape tablets, laptops, and desktops */
     .margin {
         margin-top: 4.5rem;
+    }
+
+    .thumbnail {
+        margin-top: .5rem;
     }
 }
 
