@@ -31,8 +31,9 @@ h4 {
 }
 
 .hr-heading {
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     border-top: 2px solid #2596be;
+    width: 75%;
 }
 
 .section-break {
